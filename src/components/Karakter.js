@@ -1,13 +1,10 @@
-// Karakter bileşeninizconst [characters, setCharacters] = useState([]);
 import React, { useState } from "react";
-
 import styled from "styled-components";
 
 const AccordionContainer = styled.div`
   width: 400px;
   margin: auto;
 `;
-
 const CharList = styled.div`
   background: #fff;
   color: #000;
@@ -21,7 +18,6 @@ const CharList = styled.div`
   border-bottom: 3px solid #aaa69d;
   transition: 2s;
 `;
-
 const Features = styled.div`
   padding: 10px;
   font-family: "Helvetica Neue";

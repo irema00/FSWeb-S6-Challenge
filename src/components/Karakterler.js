@@ -9,7 +9,6 @@ const Karakterler = (props) => {
     display: flex;
     flex-direction: column;
   `;
-
   return (
     <Content>
       {data.map((object, index) => (
