@@ -12,9 +12,8 @@ const Karakterler = (props) => {
 
   return (
     <Content>
-      {" "}
-      {data.map((obje, index) => (
-        <Karakter key={index} data={obje} />
+      {data.map((object, index) => (
+        <Karakter key={index} data={object} />
       ))}
     </Content>
   );

@@ -62,10 +62,20 @@ Gerekli şeyleri bitirdikten sonra çalışmanızı daha da ileri götürebilirs
 - [ ] Stil bileşenleri ile effektler veya animasyonlar oluşturun.
 - [ ] Bir dizi promise'ini çözmek için Promise.all'ı kullanın.
 
-
 ## Esnek Mülakat Soruları
 
 1. React JS nedir ve hangi sorunları çözer? Yanıtınızı sınıfta tanıtılan kavramlarla ve web'deki kişisel araştırmanızla destekleyin.
+
+React, web uygulamaları oluşturmak için kullanılan bir araçtır. Her şeyi küçük parçalara -componentlere- bölerek armaşıklığı azaltır, veri akışını yönetir, hızlıdır sanal dom oluşturarak sadece değişiklikleri günceller. Netflix ve Facebook gibi büyük platformlar React'i kullanıyor çünkü büyük projelerin daha kolay yönetilebiliyor. Aynı zamanda kullanıcılar da çok sayıda içerik arasında kolayca gezinebilir.
+
 1. Bileşen statelerini tanımlayın.
+
+Bileşen stateleri, bir bileşenin içindeki veriyi saklayan yerlerdir. Örneğin, Facebook'ta bildirim geldiğinde, bir bildirim simgesi yeni bildirimlerin sayısını saklar. React, bu veriyi güncellemek ve ekranda göstermek için kullanılır.Bileşen stateleri bir hafıza bölümü gibidir. Stateler sayesinde React, web sayfalarının farklı parçalarındaki verileri saklayabilir ve bu verileri kullanıcıya göstermek için güncelleyebilir.
+
 1. Propları açıklayın.
+
+Oluşturduğumuz bileşenlere başka bileşenlerimizden veri gönderme yoludur. Bir componentı farklı proplarla tekrar kullanabiliriz.
+
 1. Side effektler nelerdir ve bir React bileşenindeki efektleri belirli state veya prop değişiklikleriyle nasıl senkronize edersiniz?
+
+Side effectler React componentının iç durumunu değiştirmeyen, ancak dış dünyayla etkileşimde bulunan işlemleri ifade eder. Yaptığımız API fetchleri gibi. useEffect hookunu, state ya da proplar değiştiğinde çalışacak şekilde yazarak senkronize edebiliriz.
